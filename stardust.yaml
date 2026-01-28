@@ -1,0 +1,183 @@
+# Stardust Documentation Configuration
+# Full reference: https://stardust.nexlab.studio/config/overview
+
+name: Clippr
+description: Deep linking and mobile attribution platform for iOS, Android, and Flutter
+tagline: Beautiful deep links, powerful attribution
+
+# Site URL (update for production)
+url: https://docs.useclippr.xyz
+
+# Content settings
+content:
+  dir: docs/
+
+# Top Navigation
+nav:
+  - label: Docs
+    href: /
+  - label: SDKs
+    href: /sdks
+  - label: API Reference
+    href: /api
+  - label: Dashboard
+    href: https://app.useclippr.xyz
+    external: true
+  - label: GitHub
+    href: https://github.com/nexlabstudio
+    external: true
+
+# Sidebar Navigation
+sidebar:
+  - group: Getting Started
+    pages:
+      - index
+      - getting-started/quickstart
+      - getting-started/concepts
+      - getting-started/dashboard-setup
+
+  - group: SDKs Overview
+    pages:
+      - sdks/index
+
+  - group: Flutter SDK
+    collapsed: false
+    pages:
+      - sdks/flutter/index
+      - sdks/flutter/installation
+      - sdks/flutter/quickstart
+      - sdks/flutter/handling-links
+      - sdks/flutter/creating-links
+      - sdks/flutter/event-tracking
+      - sdks/flutter/api-reference
+
+  - group: iOS SDK
+    collapsed: false
+    pages:
+      - sdks/ios/index
+      - sdks/ios/installation
+      - sdks/ios/quickstart
+      - sdks/ios/universal-links
+      - sdks/ios/handling-links
+      - sdks/ios/creating-links
+      - sdks/ios/event-tracking
+      - sdks/ios/api-reference
+
+  - group: Android SDK
+    collapsed: false
+    pages:
+      - sdks/android/index
+      - sdks/android/installation
+      - sdks/android/quickstart
+      - sdks/android/app-links
+      - sdks/android/handling-links
+      - sdks/android/creating-links
+      - sdks/android/event-tracking
+      - sdks/android/api-reference
+
+  - group: Dashboard
+    collapsed: true
+    pages:
+      - dashboard/index
+      - dashboard/apps
+      - dashboard/links
+      - dashboard/analytics
+      - dashboard/team
+      - dashboard/billing
+
+  - group: API Reference
+    collapsed: true
+    pages:
+      - api/index
+      - api/authentication
+    autogenerate:
+      dir: api/endpoints
+
+  - group: Guides
+    collapsed: true
+    pages:
+      - guides/migration
+      - guides/deferred-linking
+      - guides/attribution
+      - guides/custom-domains
+      - guides/skan
+
+  - group: Resources
+    collapsed: true
+    pages:
+      - resources/faq
+      - resources/troubleshooting
+      - resources/changelog
+
+# Theme Configuration
+theme:
+  colors:
+    primary: "#6366f1"
+  darkMode:
+    enabled: true
+    default: system
+  fonts:
+    sans: Inter, system-ui, sans-serif
+    mono: JetBrains Mono, monospace
+
+# Code blocks
+code:
+  theme:
+    light: github-light
+    dark: github-dark
+  copyButton: true
+
+# Search
+search:
+  enabled: true
+  provider: pagefind
+  placeholder: Search documentation...
+  hotkey: k
+
+# SEO
+seo:
+  titleTemplate: "%s | Clippr Docs"
+  defaultImage: /og-image.png
+
+# Social links
+social:
+  github: https://github.com/nexlabstudio
+  twitter: https://twitter.com/useclippr
+
+# Header
+header:
+  showName: true
+
+# Footer
+footer:
+  copyright: "© 2025 Nexlab Studio. All rights reserved."
+  links:
+    - group: Product
+      items:
+        - label: Dashboard
+          href: https://app.useclippr.xyz
+        - label: Pricing
+          href: https://useclippr.xyz/pricing
+    - group: Resources
+      items:
+        - label: Documentation
+          href: /
+        - label: API Reference
+          href: /api
+    - group: Company
+      items:
+        - label: GitHub
+          href: https://github.com/nexlabstudio
+        - label: Twitter
+          href: https://twitter.com/useclippr
+
+# Edit links
+editLink:
+  enabled: true
+  pattern: https://github.com/nexlabstudio/clippr-docs/edit/main/docs/{path}
+  text: Edit this page on GitHub
+
+# Build
+build:
+  outDir: dist
+  cleanUrls: true

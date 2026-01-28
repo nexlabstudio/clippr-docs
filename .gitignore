@@ -1,0 +1,17 @@
+# Stardust build output
+dist/
+.stardust/
+
+# Dart
+.dart_tool/
+.packages
+pubspec.lock
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
