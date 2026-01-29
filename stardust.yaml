@@ -31,83 +31,127 @@ nav:
 sidebar:
   - group: Getting Started
     pages:
-      - index
-      - getting-started/quickstart
-      - getting-started/concepts
-      - getting-started/dashboard-setup
+      - label: Introduction
+        slug: index
+      - label: Quick Start
+        slug: getting-started/quickstart
+      - label: Core Concepts
+        slug: getting-started/concepts
+      - label: Dashboard Setup
+        slug: getting-started/dashboard-setup
 
   - group: SDKs Overview
     pages:
-      - sdks/index
+      - label: Overview
+        slug: sdks/index
 
   - group: Flutter SDK
     collapsed: false
     pages:
-      - sdks/flutter/index
-      - sdks/flutter/installation
-      - sdks/flutter/quickstart
-      - sdks/flutter/handling-links
-      - sdks/flutter/creating-links
-      - sdks/flutter/event-tracking
-      - sdks/flutter/api-reference
+      - label: Overview
+        slug: sdks/flutter/index
+      - label: Installation
+        slug: sdks/flutter/installation
+      - label: Quick Start
+        slug: sdks/flutter/quickstart
+      - label: Handling Links
+        slug: sdks/flutter/handling-links
+      - label: Creating Links
+        slug: sdks/flutter/creating-links
+      - label: Event Tracking
+        slug: sdks/flutter/event-tracking
+      - label: API Reference
+        slug: sdks/flutter/api-reference
 
   - group: iOS SDK
     collapsed: false
     pages:
-      - sdks/ios/index
-      - sdks/ios/installation
-      - sdks/ios/quickstart
-      - sdks/ios/universal-links
-      - sdks/ios/handling-links
-      - sdks/ios/creating-links
-      - sdks/ios/event-tracking
-      - sdks/ios/api-reference
+      - label: Overview
+        slug: sdks/ios/index
+      - label: Installation
+        slug: sdks/ios/installation
+      - label: Quick Start
+        slug: sdks/ios/quickstart
+      - label: Universal Links
+        slug: sdks/ios/universal-links
+      - label: Handling Links
+        slug: sdks/ios/handling-links
+      - label: Creating Links
+        slug: sdks/ios/creating-links
+      - label: Event Tracking
+        slug: sdks/ios/event-tracking
+      - label: API Reference
+        slug: sdks/ios/api-reference
 
   - group: Android SDK
     collapsed: false
     pages:
-      - sdks/android/index
-      - sdks/android/installation
-      - sdks/android/quickstart
-      - sdks/android/app-links
-      - sdks/android/handling-links
-      - sdks/android/creating-links
-      - sdks/android/event-tracking
-      - sdks/android/api-reference
+      - label: Overview
+        slug: sdks/android/index
+      - label: Installation
+        slug: sdks/android/installation
+      - label: Quick Start
+        slug: sdks/android/quickstart
+      - label: App Links
+        slug: sdks/android/app-links
+      - label: Handling Links
+        slug: sdks/android/handling-links
+      - label: Creating Links
+        slug: sdks/android/creating-links
+      - label: Event Tracking
+        slug: sdks/android/event-tracking
+      - label: API Reference
+        slug: sdks/android/api-reference
 
   - group: Dashboard
     collapsed: true
     pages:
-      - dashboard/index
-      - dashboard/apps
-      - dashboard/links
-      - dashboard/analytics
-      - dashboard/team
-      - dashboard/billing
+      - label: Overview
+        slug: dashboard/index
+      - label: Apps
+        slug: dashboard/apps
+      - label: Links
+        slug: dashboard/links
+      - label: Analytics
+        slug: dashboard/analytics
+      - label: Team Management
+        slug: dashboard/team
+      - label: Billing
+        slug: dashboard/billing
 
   - group: API Reference
     collapsed: true
     pages:
-      - api/index
-      - api/authentication
+      - label: Overview
+        slug: api/index
+      - label: Authentication
+        slug: api/authentication
     autogenerate:
       dir: api/endpoints
 
   - group: Guides
     collapsed: true
     pages:
-      - guides/migration
-      - guides/deferred-linking
-      - guides/attribution
-      - guides/custom-domains
-      - guides/skan
+      - label: Firebase Migration
+        slug: guides/migration
+      - label: Deferred Deep Linking
+        slug: guides/deferred-linking
+      - label: Attribution
+        slug: guides/attribution
+      - label: Custom Domains
+        slug: guides/custom-domains
+      - label: SKAdNetwork
+        slug: guides/skan
 
   - group: Resources
     collapsed: true
     pages:
-      - resources/faq
-      - resources/troubleshooting
-      - resources/changelog
+      - label: FAQ
+        slug: resources/faq
+      - label: Troubleshooting
+        slug: resources/troubleshooting
+      - label: Changelog
+        slug: resources/changelog
 
 # Theme Configuration
 theme:
