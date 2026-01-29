@@ -8,6 +8,12 @@ tagline: Beautiful deep links, powerful attribution
 # Site URL (update for production)
 url: https://docs.useclippr.xyz
 
+# Branding
+logo:
+  light: /icon.svg
+  dark: /icon.svg
+favicon: /favicon.ico
+
 # Content settings
 content:
   dir: docs/

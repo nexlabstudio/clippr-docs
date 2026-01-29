@@ -1,0 +1,31 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" rx="96" fill="#6366f1"/>
+
+  <!-- Link icon (🔗 style) - two interlocking chain links -->
+  <!-- Top-right link -->
+  <path d="M280 120
+           A50 50 0 0 1 330 170
+           L330 280
+           A50 50 0 0 1 280 330
+           L230 330
+           A50 50 0 0 1 180 280
+           L180 170
+           A50 50 0 0 1 230 120
+           Z"
+        fill="none" stroke="#ffffff" stroke-width="32"
+        transform="rotate(-45 256 256)"/>
+
+  <!-- Bottom-left link -->
+  <path d="M280 180
+           A50 50 0 0 1 330 230
+           L330 340
+           A50 50 0 0 1 280 390
+           L230 390
+           A50 50 0 0 1 180 340
+           L180 230
+           A50 50 0 0 1 230 180
+           Z"
+        fill="none" stroke="#ffffff" stroke-width="32"
+        transform="rotate(-45 256 256)"/>
+</svg>
