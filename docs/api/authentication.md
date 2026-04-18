@@ -54,7 +54,7 @@ curl -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIs..." \
 ### Token Expiration
 
 - Access tokens expire in 15 minutes
-- Refresh tokens expire in 7 days
+- Refresh tokens expire in 24 hours
 
 ### Refreshing Tokens
 
