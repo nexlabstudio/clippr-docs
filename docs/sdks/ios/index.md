@@ -5,7 +5,7 @@ description: Deep linking and mobile attribution SDK for iOS
 
 # iOS SDK
 
-The Clippr iOS SDK provides deep linking and mobile attribution for native iOS apps built with Swift.
+The iOS integration of Clippr's deep linking and mobile attribution platform. Written in Swift; works in any iOS app on iOS 13.0+.
 
 ## Features
 
@@ -95,6 +95,7 @@ struct ContentView: View {
   </Card>
 </Cards>
 
+<!-- Migration from Firebase Dynamic Links section disabled — Clippr positioning is attribution-first, not FDL replacement.
 ## Migration from Firebase Dynamic Links
 
 | Firebase Dynamic Links | Clippr |
@@ -103,6 +104,7 @@ struct ContentView: View {
 | `DynamicLinks.dynamicLinks()?.dynamicLink(fromCustomSchemeURL:)` | `Clippr.handleUniversalLink()` |
 
 See the [Migration Guide](/guides/migration) for a complete walkthrough.
+-->
 
 ## Source Code
 

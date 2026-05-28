@@ -5,7 +5,7 @@ description: Welcome to Clippr - Deep linking and mobile attribution for iOS, An
 
 # Welcome to Clippr
 
-Clippr is a modern deep linking and mobile attribution platform designed as a seamless replacement for Firebase Dynamic Links. Create beautiful short links, track user attribution, and deliver users directly to content within your app.
+Clippr is a modern deep linking and mobile attribution platform for iOS, Android, and Flutter. Create beautiful short links, track user attribution, and deliver users directly to content within your app.
 
 ## Why Clippr?
 

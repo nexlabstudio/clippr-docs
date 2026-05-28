@@ -113,11 +113,13 @@ No deprecations at this time.
 
 ---
 
+<!-- Migration Guides section disabled — Clippr positioning is attribution-first, not FDL replacement.
 ## Migration Guides
 
 - [Firebase Dynamic Links Migration](/guides/migration) - Migrate from Firebase before August 2025
 
 ---
+-->
 
 ## Reporting Issues
 

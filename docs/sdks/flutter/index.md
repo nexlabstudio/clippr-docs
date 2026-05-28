@@ -5,7 +5,7 @@ description: Deep linking and mobile attribution SDK for Flutter
 
 # Flutter SDK
 
-The Clippr Flutter SDK provides deep linking and mobile attribution for Flutter apps. It's a seamless replacement for Firebase Dynamic Links.
+The Flutter integration of Clippr's deep linking and mobile attribution platform.
 
 ## Features
 
@@ -89,6 +89,7 @@ class _MyAppState extends State<MyApp> {
   </Card>
 </Cards>
 
+<!-- Migration from Firebase Dynamic Links section disabled — Clippr positioning is attribution-first, not FDL replacement.
 ## Migration from Firebase Dynamic Links
 
 Clippr's API is intentionally similar to Firebase Dynamic Links for easy migration:
@@ -101,6 +102,7 @@ Clippr's API is intentionally similar to Firebase Dynamic Links for easy migrati
 | `ShortDynamicLink` | `ShortLink` |
 
 See the [Migration Guide](/guides/migration) for a complete walkthrough.
+-->
 
 ## Source Code
 
