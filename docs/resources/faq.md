@@ -15,9 +15,11 @@ Clippr is a deep linking and mobile attribution platform. It helps you:
 - Measure marketing campaign effectiveness
 - Handle deferred deep linking (attribution after install)
 
+<!-- FAQ entry disabled — Clippr positioning is attribution-first, not FDL replacement.
 ### Is Clippr a replacement for Firebase Dynamic Links?
 
 Yes. Clippr is designed as a modern replacement for Firebase Dynamic Links, which is being deprecated. The API is intentionally similar for easy migration.
+-->
 
 ### What platforms does Clippr support?
 

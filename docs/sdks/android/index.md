@@ -5,7 +5,7 @@ description: Deep linking and mobile attribution SDK for Android
 
 # Android SDK
 
-The Clippr Android SDK provides deep linking and mobile attribution for native Android apps built with Kotlin or Java.
+The Android integration of Clippr's deep linking and mobile attribution platform. Written in Kotlin; works in any Android app on API 21+ (Kotlin or Java).
 
 ## Features
 

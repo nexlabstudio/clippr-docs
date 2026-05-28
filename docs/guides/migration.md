@@ -1,7 +1,13 @@
 ---
 title: Firebase Dynamic Links Migration
 description: Migrate from Firebase Dynamic Links to Clippr
+draft: true
 ---
+
+<!-- This page is intentionally unpublished. Clippr positioning is
+attribution-first, not FDL replacement. Kept around in case the team wants
+to relight the migration angle for a specific campaign later. The Stardust
+nav entry is also commented out. -->
 
 # Firebase Dynamic Links Migration
 
