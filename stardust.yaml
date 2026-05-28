@@ -138,16 +138,16 @@ sidebar:
   - group: Guides
     collapsed: true
     pages:
-      - label: Firebase Migration
-        slug: guides/migration
+      # - label: Firebase Migration
+      #   slug: guides/migration
       - label: Deferred Deep Linking
         slug: guides/deferred-linking
-      # - label: Attribution
-      #   slug: guides/attribution
+      - label: Attribution
+        slug: guides/attribution
       - label: Custom Domains
         slug: guides/custom-domains
-      # - label: SKAdNetwork
-      #   slug: guides/skan
+      - label: SKAdNetwork
+        slug: guides/skan
 
   - group: Resources
     collapsed: true
